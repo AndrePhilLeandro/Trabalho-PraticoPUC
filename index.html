@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Pessoal</title>
+    <link href="style.css" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body class="bd">
+    <header>
+        <button type="button" id="Name" class="btn btn-secondary btn-lg"></button>
+        <br>
+    </header>
+    <!-- Inicio Perfil -->
+    <div>
+        <h2 style="border-bottom: solid; text-align: center;">Perfil</h2>
+        <img class="eu" src="https://avatars.githubusercontent.com/u/113447789?v=4" class="img-thumbnail" alt="Andre Leandro">
+        <p id="Biografia"></p>
+        <p>Localização: <span id="Local"></span></p>
+        <p>
+            <a class="logo" href="https://www.instagram.com/andre_lleandro?igsh=MWdsaXd1ZGFpa3g1Nw=="  target="_blank">
+                <img class="ig" src="data:image/webp;base64,UklGRhgCAABXRUJQVlA4WAoAAAAQAAAAGwAAGwAAQUxQSEcAAAARL0CQbZucwXKUgxziERHMp2ATSbKqfSCA829i848CHvlX8zb9aUT/JwDHXFsaYC7xw7lk37U6Na5fPzQ2rZ6aw1QIhLGjAQBWUDggqgEAALAJAJ0BKhwAHAA+0T60WigiKCgUAQAaCWwAnTKEcDezfhXyZ/CBhxCA22/igfqr2AN5A9AD9busl8qQmf92B+wCU0R9MgZgEWzPppZb1lb/272Be/0AAP7mLphl9sWpAF+SgVFlR94eZ//fLjRlBhx/xBCKX1WDkhhbN+G9VL3N5mqQz/X/ItyHAXq5/phdqVZC0M61mf3BsGqsTyDH/6irVD/Lw3FnlWO3T0RR/QtaGqdv/4HOSPqMEi1n/ZviOm+2w3nI/+ko6a6IQFxau9ot4ZlrAF+LOKGV1l6kHq69wPnK8J2w03gdQdlFav4Jw4OZ/8Rnu1Btake7QjlS2yOOKh48ufZ36gPp3o21tP8XteDijpztyXBDZYZCS/+QrAGKVF+ECkVd67Di58L2VtDsWLi6WPtJlQxkGeNmy797/au4GbHOwq43vkPVB0nIEQngvghzrpl6Uz9i7WAhLY8kmPamfb9I1DtNBlEw1FazcGla/uUKuCTN/zPk0v6/n/H9Prbc8GoGDC+1iiPJzX+5oPuX7m2/34dsrOoc5+g471FCJ6X3xnlAAA==" alt="Instagram">
+            </a>
+            <a class="logo" href="https://www.linkedin.com/in/andre-phillipe-leandro-a61ba8255/" target="_blank">
+                <img class="in" src="data:image/webp;base64,UklGRtQBAABXRUJQVlA4WAoAAAAQAAAAHwAAHwAAQUxQSDQAAAARJ6AgAAFEjXTeFjciIvA1UBNJbnMUJAYJgSCYPy6FzmVE/yeA+5T2A+0ZyPDHac8ge8U9VlA4IHoBAABwCACdASogACAAPtE+tFooIigoFAEAGglsAJ0yg8qlwOAjtk/1G6ID1AbxX6C3Sll4wZAF8lDotsc+KaJlQynE9c1FXFjUFPf+rCZoAPoPKPujJEtTP2yXdgMAnQj6O90Or0AgiI33Vj2Ss8iUAsu4nD1biT/UA+MfvMBTX0hWkzVsPYxzIOYk9rHptAgeMMCesKShHi7LHVMPgmnA8xA/Mh5/QBrdTB8MT8AlxM6c3pub32QhyiMvi1dY928t5Dg2bWy0KIYRDaqUGE+uQjpxvLZhTXaq/M8yRsL9iHZzPKVAqDfUwhGfMqf8Erf1O1B/M8zN8f4rlHOAh8k81tzsW1W/mrdN/TV20SvGlRh/h8p+zq0R/u4Of1lb7f++oySXJeBT1+QdLZF82mJgCcAw/M+Unl+4Iryg6oTgf61dfACgwCYbQvkD33z4/HkErT/ycI1AqB8f2iGPtCE0lggrTi/XTfb+E5rxmv7J8nxz4yncZPfsam1AAAA=" alt="linkedin">
+            </a>
+            <a class="logo" href="https://github.com/AndrePhilLeandro" target="_blank">
+                <img class="ig" src="data:image/webp;base64,UklGRlwBAABXRUJQVlA4IFABAABQBwCdASogACAAPtE+tFooIigoFAEAGglpABOY66msBQJ5nXjie7on/u43Y8wznTq3o6RYivaXQwLqgtFvGxp6tj2AAP79L+I2CJh158fhCzOImU0j6fSYs24eNNOnLQVLknK6x0YdKXpgjKOClauOwUbTjwbnkD3T1LCI5A6+oN0ulF2V90g5EiYlJhbedo6NzTT0dXE2q79hxdxGVZKXwCE8g6M1GLCjNzgQ3TGw2tTlcFmUTXW2nYGTpwb/j/k/YQ/hT41vpISUAHUMUpAwBRNSOmicv2Cn6+YxYW4EtTVPHuu3RXCKwXSNsbwpQnpoNtDThFUl8cGynGk1RYxaPcNGSa/DJrEFVnY+2II0/QDR5Nt0lhEn7E4t7cxO/iLq5Qmw45BcJVZqId74JeSdBYiPG31sfW7UxxD36N8t/959xsrBtFYtjsBGwd8gAAA=" alt="Github">
+            </a>
+        </p>
+    </div>
+    <br><br><br>
+    <!-- Inicio Repositorio -->
+    <h2 style="border-bottom: solid; text-align: center;">Repositorio</h2>
+
+    <div class="container">
+        <div id="repositorios" class="row row-cols-1 row-cols-md-3 g-4"></div>
+    </div>
+<!-- Inicio Colegas de Tabalho -->
+    <div class="container">
+        <h2 style="border-bottom: solid; text-align: center;">Colegas de Trabalho</h2>
+        <div id="colegas" class="row row-cols-1 row-cols-md-3 g-4"></div>
+    </div>
+
+    <script src="minhapagina.js"></script>
+</body>
+</html>
