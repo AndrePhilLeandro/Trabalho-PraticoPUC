@@ -1,9 +1,15 @@
-Trabalho Prático - Página Pessoal
-Este projeto foi realizado durante o primeiro período do curso de Sistemas de Informação na PUC Minas. O objetivo foi simular uma página pessoal utilizando os conhecimentos adquiridos ao longo do 1° período.
+Página Pessoal
 
-Descrição do Projeto:
-Neste repositório, foi aplicado tudo o que foi aprendido no primeiro período, utilizando tecnologias como HTML, JavaScript e a API do GitHub para criar uma página simples e funcional.
+Este projeto é uma página pessoal desenvolvida durante o primeiro período do curso de Sistemas de Informação na PUC Minas. Foi criado para aplicar os conhecimentos adquiridos ao longo do período, utilizando HTML, JavaScript e a API do GitHub.
+Funcionalidades
+
+•	Carregar informações diretamente da API do GitHub
+•	Exibir repositórios públicos do usuário
+•	Exibir informações básicas sobre o usuário
+•	Navegação simples e intuitiva pela página
 
 Instruções de Uso
-1 - Abra o arquivo index.html em seu navegador.
-2 - A página irá carregar automaticamente todas as informações coletadas diretamente da API do GitHub.
+
+1.	Abra o arquivo index.html em seu navegador.
+2.	A página irá carregar automaticamente todas as informações coletadas da API do GitHub.
+
