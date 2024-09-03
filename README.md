@@ -4,8 +4,11 @@ Este projeto é uma página pessoal desenvolvida durante o primeiro período do 
 Funcionalidades
 
 •	Carregar informações diretamente da API do GitHub
+
 •	Exibir repositórios públicos do usuário
+
 •	Exibir informações básicas sobre o usuário
+
 •	Navegação simples e intuitiva pela página
 
 Instruções de Uso
