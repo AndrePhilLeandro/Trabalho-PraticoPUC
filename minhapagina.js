@@ -39,6 +39,7 @@ fetch('https://api.github.com/users/AndrePhilLeandro/repos')
                           <div class="col">
                             <i class="bi bi-copy"></i><span class="fs-4"> ${repositorio.forks_count}</span>
                           </div>
+                          <div> <i class="bi bi-caret-right"> ${repositorio.language}  </i></div>
                         </div>
                       </div>
                       <div class="card-footer">
